@@ -17,6 +17,4 @@ if device_status in ["deactive", "inactive"]:
 else:
     temperature = int(input("Enter the temperature : "))
     print(check_temperature(device_status, temperature))
-
-
-
+ 
