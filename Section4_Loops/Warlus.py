@@ -44,6 +44,7 @@
 # ─────────────────────────────────────────────────────────────
 # 🔹 NORMAL WAY — two separate steps
 # ─────────────────────────────────────────────────────────────
+from typing import Required
 value = 13
 remainder = value % 5          # Step 1: calculate and store
 
@@ -64,3 +65,24 @@ if remainder:                  # Step 2: check if non-zero (truthy)
 #    Most useful in: while loops, list comprehensions, and if conditions
 #    Always wrap in parentheses: if (x := expr):
 #    Python 3.8+ required — older versions will error!
+
+
+
+
+# available_sizes = ['small' , 'medium' , 'large' , "Extra-large"]
+
+# if (required_size := input("Enter the required size : ")) in available_sizes:
+#    print(f"Serving {required_size} Chai")
+# else:
+#   print(f"Size {required_size} is unavailable!")
+
+
+flavors = ["Masala Chai" , "Ginger Chai"]
+print("Available Flavors : ",flavors)
+
+
+while (flavors := input("Enter the required flavor : ")) not in flavors:
+  print("Flavors not in the menu")
+
+# print(f"you choose {flavors} chai")
+
