@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Python%20Bootcamp%20%F0%9F%90%8D&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=50%20Projects%20%7C%20By%20Hitesh%20Choudhary%20%7C%20Shivam%20Makwana&descAlignY=55&descSize=18" width="100%"/>
@@ -104,7 +104,7 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 ---
 
 ### 📦 Section 4 — Loops (for, while, walrus)
-![Progress](https://img.shields.io/badge/Progress-90%25-69F0AE?style=flat-square&logo=checkmarx)
+![Progress](https://img.shields.io/badge/Progress-100%25-00C853?style=flat-square&logo=checkmarx)
 
 | # | Topic | Status | Files |
 |---|-------|--------|-------|
@@ -116,21 +116,27 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 | 6 | Loop Patterns | 🟢 Done | `Loops6.py` |
 | 7 | Advanced Loop Patterns | 🟢 Done | `Loops7.py` |
 | 8 | While Loops | 🟢 Done | `Loops8.py`, `While1.py` |
-| 9 | Loop Challenges | 🔵 In Progress | `Loops9.py` |
-| 10 | Walrus Operator (:=) | 🔵 In Progress | `Warlus.py` |
+| 9 | Loop Challenges | 🟢 Done | `Loops9.py` |
+| 10 | Walrus Operator (:=) | 🟢 Done | `Warlus.py` |
+| 11 | Discount + match-case Exercise | 🟢 Done | `x_Disc_match_case.py` |
+| 12 | Walrus + match-case Combined | 🟢 Done | `x_Walrus_MatchCase_Exercise.py` |
 
 ---
 
 ### 📦 Section 5 — Functions
-![Progress](https://img.shields.io/badge/Progress-0%25-gray?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-60%25-69F0AE?style=flat-square&logo=checkmarx)
 
-| # | Topic | Status |
-|---|-------|--------|
-| 1 | Defining Functions | ⚪ Upcoming |
-| 2 | Arguments & Parameters | ⚪ Upcoming |
-| 3 | *args and **kwargs | ⚪ Upcoming |
-| 4 | Lambda Functions | ⚪ Upcoming |
-| 5 | Recursion | ⚪ Upcoming |
+| # | Topic | Status | Files |
+|---|-------|--------|-------|
+| 1 | Defining Functions | 🟢 Done | `01_Function.py` |
+| 2 | Arguments & Parameters | 🟢 Done | `01_Function.py` |
+| 3 | *args and **kwargs | 🟢 Done | `01_Function.py` |
+| 4 | Lambda Functions | 🟢 Done | `02_Function_Advanced.py` |
+| 5 | map() & filter() | 🟢 Done | `02_Function_Advanced.py` |
+| 6 | Recursion | 🟢 Done | `02_Function_Advanced.py` |
+| 7 | Higher Order Functions | 🟢 Done | `02_Function_Advanced.py` |
+| 8 | Closures & Decorators | 🔵 In Progress | — |
+| 9 | Scope & LEGB Rule | ⚪ Upcoming | — |
 
 ---
 
@@ -190,6 +196,8 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 
 | Date | Section | Topics Covered | Commits |
 |------|---------|----------------|---------|
+| 🗓️ 2026-07-11 | Section 4 ✅ + Section 5 🔵 | Walrus+match-case exercises, Discount calculator, Functions basics+advanced (lambda, map, filter, recursion, HOF) | `eebc07f` |
+| 🗓️ 2026-07-10 | Section 4 | match-case discount, Walrus operator fix, Function intro | `46f4ce4` |
 | 🗓️ 2026-07-09 | Section 3 & 4 | Condition Format projects, Loops 8-9, Walrus Operator | `3178a90` |
 | 🗓️ 2026-07-08 | Section 1 - 3 | Setup, Datatypes, Condition Format basics | `6704b9c` |
 
@@ -198,18 +206,18 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 ## 🏆 Overall Progress
 
 ```
-Total Sections  : ████████████████░░░░░░░░░░░░░░░░  4 / 9   (44%)
-Total Projects  : ████████░░░░░░░░░░░░░░░░░░░░░░░░  ~10 / 50 (20%)
-Daily Streak    : 🔥 2 Days Running
+Total Sections  : ██████████████████████░░░░░░░░░░  5 / 9   (55%)
+Total Projects  : ████████████░░░░░░░░░░░░░░░░░░░░  ~15 / 50 (30%)
+Daily Streak    : 🔥 4 Days Running
 ```
 
 <div align="center">
 
 | Metric | Value |
 |--------|-------|
-| 📁 Sections Completed | 3 of 9 |
-| 🏗️ Projects Built | ~10 of 50 |
-| 🔥 Current Streak | 2 Days |
+| 📁 Sections Completed | 4 of 9 (Section 5 in progress) |
+| 🏗️ Projects Built | ~15 of 50 |
+| 🔥 Current Streak | 4 Days |
 | 📆 Started On | July 2026 |
 
 </div>
@@ -251,11 +259,17 @@ Python-bootcamp-50-projects/
 │   └── train_seat.py
 │
 ├── 📁 Section4_Loops/
-│   ├── Loops1.py - Loops9.py   # Loop concepts
-│   ├── While1.py               # While loop
-│   └── Warlus.py               # Walrus operator
+│   ├── Loops1.py - Loops9.py         # Loop concepts
+│   ├── While1.py                      # While loop
+│   ├── Warlus.py                      # Walrus operator
+│   ├── x_Disc_match_case.py           # Discount + match-case exercise
+│   └── x_Walrus_MatchCase_Exercise.py # Walrus + match-case combined
 │
-└── README.md                   # You are here!
+├── 📁 Function/
+│   ├── 01_Function.py                 # Functions basics
+│   └── 02_Function_Advanced.py        # Lambda, map, filter, recursion
+│
+└── README.md                          # You are here!
 ```
 
 ---
