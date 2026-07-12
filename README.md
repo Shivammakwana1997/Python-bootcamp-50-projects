@@ -124,7 +124,7 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 ---
 
 ### 📦 Section 5 — Functions
-![Progress](https://img.shields.io/badge/Progress-60%25-69F0AE?style=flat-square&logo=checkmarx)
+![Progress](https://img.shields.io/badge/Progress-80%25-00C853?style=flat-square&logo=checkmarx)
 
 | # | Topic | Status | Files |
 |---|-------|--------|-------|
@@ -135,8 +135,12 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 | 5 | map() & filter() | 🟢 Done | `02_Function_Advanced.py` |
 | 6 | Recursion | 🟢 Done | `02_Function_Advanced.py` |
 | 7 | Higher Order Functions | 🟢 Done | `02_Function_Advanced.py` |
-| 8 | Closures & Decorators | 🔵 In Progress | — |
-| 9 | Scope & LEGB Rule | ⚪ Upcoming | — |
+| 8 | Improving Readability with Functions | 🟢 Done | `improving_readability.py` |
+| 9 | Improving Traceability (VAT calculator) | 🟢 Done | `improving_traceability.py` |
+| 10 | Hiding Implementation Details | 🟢 Done | `hide_imp_details.py` |
+| 11 | Splitting Complex Logic into Functions | 🟢 Done | `split_complex.py` |
+| 12 | Closures & Decorators | 🔵 In Progress | — |
+| 13 | Scope & LEGB Rule | ⚪ Upcoming | — |
 
 ---
 
@@ -196,6 +200,7 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 
 | Date | Section | Topics Covered | Commits |
 |------|---------|----------------|---------|
+| 🗓️ 2026-07-12 | Section 5 🔵 | Function best practices — improving readability, traceability (VAT), hiding details, splitting complex logic | `latest` |
 | 🗓️ 2026-07-11 | Section 4 ✅ + Section 5 🔵 | Walrus+match-case exercises, Discount calculator, Functions basics+advanced (lambda, map, filter, recursion, HOF) | `eebc07f` |
 | 🗓️ 2026-07-10 | Section 4 | match-case discount, Walrus operator fix, Function intro | `46f4ce4` |
 | 🗓️ 2026-07-09 | Section 3 & 4 | Condition Format projects, Loops 8-9, Walrus Operator | `3178a90` |
@@ -207,17 +212,17 @@ I push **daily code**, notes, and mini-projects as I progress through the course
 
 ```
 Total Sections  : ██████████████████████░░░░░░░░░░  5 / 9   (55%)
-Total Projects  : ████████████░░░░░░░░░░░░░░░░░░░░  ~15 / 50 (30%)
-Daily Streak    : 🔥 4 Days Running
+Total Projects  : ████████████░░░░░░░░░░░░░░░░░░░░  ~19 / 50 (38%)
+Daily Streak    : 🔥 5 Days Running
 ```
 
 <div align="center">
 
 | Metric | Value |
 |--------|-------|
-| 📁 Sections Completed | 4 of 9 (Section 5 in progress) |
-| 🏗️ Projects Built | ~15 of 50 |
-| 🔥 Current Streak | 4 Days |
+| 📁 Sections Completed | 4 of 9 (Section 5 in progress — 80%) |
+| 🏗️ Projects Built | ~19 of 50 |
+| 🔥 Current Streak | 5 Days |
 | 📆 Started On | July 2026 |
 
 </div>
@@ -266,8 +271,13 @@ Python-bootcamp-50-projects/
 │   └── x_Walrus_MatchCase_Exercise.py # Walrus + match-case combined
 │
 ├── 📁 Function/
-│   ├── 01_Function.py                 # Functions basics
-│   └── 02_Function_Advanced.py        # Lambda, map, filter, recursion
+│   ├── 01_Function.py                 # Functions basics (params, defaults, *args, **kwargs)
+│   ├── 01__Function.py                # Quick scratch — print_order examples
+│   ├── 02_Function_Advanced.py        # Lambda, map, filter, recursion, HOF
+│   ├── improving_readability.py       # calculate_bill — why functions improve readability
+│   ├── improving_traceability.py      # add_vat — consistent & traceable VAT logic
+│   ├── hide_imp_details.py            # register_user — separation of concerns
+│   └── split_complex.py              # generate_report — splitting complex logic
 │
 └── README.md                          # You are here!
 ```

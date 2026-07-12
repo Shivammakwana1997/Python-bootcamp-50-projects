@@ -84,5 +84,5 @@ print("Available Flavors : ",flavors)
 while (flavors := input("Enter the required flavor : ")) not in flavors:
   print("Flavors not in the menu")
 
-# print(f"you choose {flavors} chai")
+print(f"you choose {flavors} chai")
 
